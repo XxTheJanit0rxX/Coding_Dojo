@@ -1,0 +1,27 @@
+1. Navigate to your Desktop
+a. cd $HOME/Desktop
+2. Create a new directory, call it 'test'
+a. mkdir test
+3. Make files called index.html, style.css, commands.txt inside the test directory
+a. cd test
+b. touch index.html 
+c. touch styles.css
+d. touch commands.txt
+4. Make a copy of index.html and call it index_2.html
+a. cp index.html index_2.html
+5. Navigate back to you desktop and make another directory, call it destination
+a. cd $HOME/Desktop
+b. mkdir destination
+6. Move the index_2.html file to the 'destination' directory
+a. mv test/index_2.html destination/
+7. In the 'test' directory, remove the 'styles.css' file
+a. rm test/styles.css
+8. Now, check and see what files are in the 'test' and 'destination' directories
+a. ls -al test/
+b. ls -al destination/
+9. Remove/delete the 'destination' directory
+a. rm -rf destination
+10. Write the commands you used to do the above and save them in commands.txt. Then upload it below.
+a. vi commands.txt (input commands)
+11. Display the contents of commands.txt in the terminal
+a. cat commands.txt
